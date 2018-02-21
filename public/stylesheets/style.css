@@ -1,0 +1,446 @@
+@import url("http://fonts.googleapis.com/css?family=Bree+Serif|Merriweather:400,300,700,900");
+@import url("http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css");
+
+body {
+ background: #ebefff;
+    overflow-x: hidden;
+    padding: 0!important;
+   }
+
+.h5, h5 {
+    font-size: 2.25rem;
+}
+
+w-5{
+  width: 5%;
+}
+button, input, optgroup, select, textarea {
+   
+    font-family: sans-serif;
+    font-size: 12px;
+    line-height: inherit;
+    text-align: -webkit-match-parent;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+
+@media (min-width: 576px){
+
+.jumbotron {
+ padding: 1rem 1rem;
+  }
+}
+
+
+/*--------------------------->Header*/
+.navbar{
+  padding: 0px;
+ 
+}
+.container-fluid{
+  padding: 0px 0px ;
+}
+
+.navbar-light .navbar-brand {
+    color: rgba(0,0,0,.9);
+    font-size: 40px;
+    font-weight: bold;
+        font-family: inherit;
+}
+.navbar-brand img
+{
+  width: 50px;
+    height: auto;
+    float: right;
+    -webkit-transform: rotate(40deg);
+    transform: rotate(40deg)
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
+    color: #4c4c4c;
+     
+}
+
+ 
+.navbar-light .navbar-nav .nav-link{
+       font-weight: 500;
+        font-family: Changa,sans-serif;
+    text-transform: uppercase;
+    line-height: 1;
+       font-size: 18px;
+    color: #4c4c4c;
+        letter-spacing: 0.2px;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+      padding-top: 26px;
+    padding-bottom: 26px;
+    font-family: inherit;
+     
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+   background: linear-gradient(65deg,#ffdd09,#fd9808);
+}
+#whoarewe .carousel-inner .carousel-item img{
+  background-size: cover;
+    min-width: 100%;
+    max-height: 650px;
+}
+
+
+.jumbotron{
+  background-color: #FFF;
+        padding: 2rem 3rem;
+            border-radius: 0px;
+}
+
+.carousel-caption {
+   position: absolute;
+    bottom: 168px;
+    right: 65%;
+        top: 0%;
+  }
+  /*********whoarewe----------->
+  */
+
+  #whoarewe .card{
+    border: none;
+    padding: 22px 20px;
+    border-radius: 0px
+  }
+  #whoarewe .card-body{
+ padding: 2.25rem;
+ text-align: center;
+
+  }
+
+  #whoarewe.jumbotron {
+    
+    padding-top: 36px;
+    padding-right: 10px;
+    padding-bottom: 54px;
+    padding-left: 10px;
+  }
+
+   #whoarewe h6{
+    font-size: 15px;
+   }
+  #whoarewe h6 , #whoarewe p{
+    color: black;
+      font-family: 'Lateef', serif ,Roboto Slab,!important;
+  }
+
+  #whoarewe .btn-primary{
+    background-color: #FFF;
+    color: #000;
+    border:2px solid #000;
+    border-radius: 0px;
+  }
+  #whoarewe .btn-primary:hover{
+    background: linear-gradient(65deg,#ffdd09,#fd9808);
+    color: #FFF;
+    border-color: #ffdd09
+
+  }
+
+/**************services-------------->
+*/
+.services h1
+{
+      font-weight: 400;
+    position: relative;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: inherit;
+    line-height: 1.1;
+    color: inherit;
+    padding: 50px 5px 73px 5px;
+    
+}
+
+.services h1::after{
+      content: "";
+    position: absolute;
+    height: 1px;
+    background: #aaa;
+}
+.services h1::before
+  {width: 75px;
+    bottom: -6px;
+    right: calc(50% - 37.5px);
+}
+.services .card{
+  margin: 15px
+}
+.services .card-img-top{
+     width: 22%;
+    float: right;
+    padding: 2px;
+}
+
+.services .card-body h5{
+  width: 70%;
+  float: left;
+  padding-top: 40px
+}
+.services .card-body p
+{
+  font-weight: 300;
+    line-height: 1.7;
+    color: rgba(0,0,0,.7);
+      font-size: 18px;
+}
+.services li
+{
+      background: linear-gradient(65deg,#ffdd09,#fd9808);
+    display: inline-block;
+    padding: 8px 30px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 100px;
+    color: #000;
+}
+.services .list-group
+{
+  display: inline;
+}
+.services .list-group-item:first-child
+{
+border-top-right-radius:0!important;
+    border-top-left-radius: 0!important;
+}
+/***********banner----------->
+*/
+.banner{
+    height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 100px;
+}
+
+.banner .overlay{
+height: 500px;
+z-index: 999;
+ background: linear-gradient(70deg, rgba(255, 221, 9, 0.2), #fd9808d1);
+padding: 40px;
+}
+
+
+.banner .overlay img
+{
+      width: 150px;
+      vertical-align: middle;
+          position: relative;
+    padding-top: 150px;
+
+}
+
+.banner .overlay h3
+{
+  color: #fff;
+    margin-top: 60px;
+    text-shadow: 1px 1px 0 #8b8a8a;
+    line-height: 1.5;
+    font-weight: 400;
+    letter-spacing: .2
+}
+/***********---->aboutus*/
+
+  .aboutus h3{
+        margin-top: 20px;
+    margin-bottom: 10px;
+    padding-bottom: 60px!important;
+        font-size: 24px;
+        font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+  }
+  .aboutus .whoWeAre .col-3{
+      background-color: #FFF;
+    padding-top: 15px;
+    border-top: 11px solid #FFDD09;
+    max-width: 22%;
+        margin-left: 3%;
+        padding-left: 5px;
+  }
+  .aboutus .whoWeAre .col-3:hover{
+    border-left: 2px solid #FFDD09;
+      border-right: 2px solid #FFDD09;
+        border-bottom: 2px solid #FFDD09;
+  }
+  .aboutus .whoWeAre .col-3 p{
+     color: #333;
+         margin-top: 5px;
+         font-size: 24px;
+  }
+
+.aboutus .col-4
+{
+  margin-top: 60px;
+    padding: 0px;
+}
+.aboutus .form-control
+{
+      margin: 15px 0px 10px;
+    padding: 5px;
+    border: none;
+    border-radius: 0px;
+    border-bottom: 1px solid #CCC;
+}
+.aboutus .ms-4{
+  padding-top: 50px ;
+}
+.aboutus .form-control:focus{
+  border:none;
+      border-radius: 0px;
+ box-shadow: 0 0 0 0.2rem #fff;
+ border-bottom: 2px solid #ffdd09
+}
+.aboutus .btn
+{
+      border: 2px solid #000;
+    border-radius: 0px;
+    margin-top: 31px;
+    margin-bottom: 2px;
+    padding: 9px 9px;
+    color: #000;
+}
+.aboutus .btn:hover{
+background: linear-gradient(65deg,#ffdd09,#fd9808);
+    color: #FFF;
+    border-color: #ffdd09;
+}
+.aboutus .card-header{
+  background-color: #1B1B1B
+}
+.aboutus .card-header .s-1,
+.aboutus .card-header .s-3{
+ font-size: 15px;
+ color: #fff
+}
+.aboutus .card-header .s-2{
+  color: #FFDD09;
+  font-size: 18px;
+  font-weight: bold;
+}
+.aboutus .b-1 h1 ,.b-1 h3{
+  font-size: 27px;
+font-weight: bold;
+    padding: 85px 0px 0px 0px;
+
+}
+
+
+.aboutus .b-1 p{
+font-size: 17px;
+font-weight: 300;
+    color: #525252;
+    line-height: 1.8;
+    word-spacing: .15em;
+}
+/******---->clients
+*/
+.clients h3{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 30px;
+      font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+.clients .carousel-item{
+      padding: 50px 0px 0px 20px;
+}
+
+.clients .carousel-item img
+{
+    width: 70px;
+    height: 70px;
+    padding: 5px;
+    border-radius: 50%;
+    border: 1px solid rgba(0,0,0,.3);
+}
+
+
+/***********--->footer
+*/
+.footer 
+{
+      background-color: #FFF;
+    margin-top: 15px;
+    
+}
+.footer .f-1 img{
+width: 14%;
+}
+.footer p
+{    font-weight: 200;
+    font-size: 17px;
+    color: #7f7f7f;
+    margin-bottom: 30px;
+    margin-top: 30px}
+ .footer .list-group-item
+{
+border: none;
+    cursor: pointer;
+}
+
+.f-4 h3{
+  padding: 45px 0px 0px;
+}
+
+.f-4 p{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.f-4 .in-1
+{
+      border: 2px solid #DDD;
+    padding: 10px;
+        background-color: #EEE;
+    font-size: 12px;
+        margin-top: 15px;
+}
+
+.f-4 .in-2 {
+     border: 2px solid #000;
+    padding: 8px;
+    margin-top: 15px;
+    border-radius: 0px;
+}
+.f-4 .in-2:hover
+{
+     background: linear-gradient(65deg,#ffdd09,#fd9808);
+    color: #FFF;
+    border-color: #ffdd09;
+}
+
+.f-3 h3, .f-2 h3{
+font-size: 20px;
+margin-top: 45px;
+    color: #000;
+}
+.f-3 h3:hover, .f-2 h3:hover{
+background-color: #FFF;
+}
+.f-3 button ,.f-2 button
+{padding-bottom: 1px;
+      font-size: 15px;
+}
+.f-3 button:hover ,.f-2 button:hover{
+  background-color: #FFF;
+  color: #000;
+  font-weight: bold;
+}
+.f-1{
+margin-top: 45px;
+}
